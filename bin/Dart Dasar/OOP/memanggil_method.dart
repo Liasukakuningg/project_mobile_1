@@ -10,6 +10,8 @@ class Person {
 }
 
 void main(){
-  var person1 = Person();
-  person1.sayHello("Lia");
+  var person = Person();
+  person.name = "Rabiatul Awalia";
+
+  person.sayHello("Lia");
 }
